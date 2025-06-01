@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header css */
+
+header {
+    height: 84px;
+    position: sticky;
+    top: 0;
+
+    background-color: white;
+    z-index: 1000;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 99px;
+    margin-top: 24px;
+
+}
+
+.links-header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    margin-right: 99px;
+    margin-top: 24px;
+}
+
+.links-header > a {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+    text-decoration: none;
+    color: #636060;
+}
+
+
+
+
+/* intro card */
+
+#greece-backgroundimg {
+    background-image: url(images/discover-greece.png);
+
+    width: 100%;
+    height: 606px;
+
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 84px;
+}
+
+#discover-greece {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#discover-greece h1 {
+    font-size: 79px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+#discover-greece p {
+    font-size: 19px;
+    font-weight: 400px;
+}
+
+
+
+/* end cards  */
+
+.collage {
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+
+    width: 924px;
+}
+
+.card {
+    height: 400px;
+    width: 286px;
+
+    font-family: Helvetica, sans-serif;
+}
+.card img {
+    width: 286px;
+    height: 195px;
+
+    margin-bottom: 23px;
+}
+.card h3 {
+    color: #343232;
+    font-size: 19px;
+    font-weight: 400;
+
+    margin-bottom: 9px;
+}
+.card p {
+    color: #636060;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 9px;
+}
+
+
+
+.collage-left {
+    font-family: Helvetica, sans-serif;
+
+    width: 214px;
+    height: auto;
+}
+
+.collage-left p {
+    font-size: 20px;
+    color: #636060;
+    margin-bottom: 9px;
+
+    font-weight: 400;
+}
+
+.collage-left h3 {
+    font-size: 28px;
+    color: #010101;
+    margin-bottom: 37px;
+
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
